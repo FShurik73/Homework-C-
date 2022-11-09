@@ -9,7 +9,7 @@ int Prompt(string message)
 {
     System.Console.Write(message);   
     return int.Parse(Console.ReadLine());   
-    }
+}
 int N = Prompt("Введите число больше 0>  ");
 int value = N;
 int num = 1; 
