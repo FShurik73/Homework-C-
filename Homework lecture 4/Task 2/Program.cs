@@ -8,10 +8,10 @@ int Prompt(string message)
     System.Console.Write(message);
     return int.Parse(Console.ReadLine());
 }
-int N = Prompt("Введите число >  ");
+int n = Prompt("Введите число >  ");
 int result = 0;
-for (int i = N; i > 0; result += i % 10, i /= 10) ;
-System.Console.WriteLine($"Сумма цифр числа {N} равна {result}");
+for (int i = n; i > 0; result += i % 10, i /= 10) ;
+System.Console.WriteLine($"Сумма цифр числа {n} равна {result}");
 
 
 
