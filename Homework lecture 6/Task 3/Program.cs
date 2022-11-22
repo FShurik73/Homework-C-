@@ -62,19 +62,16 @@ int MaxNum(int[,] matrix)
     int sumDiff = 0;
     sumDiff = summax - summin;
     Console.WriteLine($" {summax} - {summin} = {sumDiff}");
-    return summin;
+    return sumDiff;
 }
 
 
 
 
 FillArray(matrix);
+System.Console.WriteLine($" разность максимальных и минимальных чисел =  {MaxNum(matrix)},  ");
 PrintArray(matrix);
 MaxNum(matrix);
-//MinNum(matrix);
-//SumMaxLine(matrix);{SumMaxLine(matrix)}
-//System.Console.WriteLine($" max равен {MaxNum(matrix)},  ");
-//PrintArray(max);
 
 
 
